@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Recherche de cinnémas à peoximité</h1>
+        <div id="error-message">
+            <button id="geolocate-btn"></button>
+            <form id="search-form">
+                <input type="text" id="seearch-input" placeholder="Entrez une adresse">
+                <label for="range-input">Distance (km)</label>
+                <input type="range" id="range-input">
+                <span id="range-value">10 km</span>
+                <button type="submit">Recherche</button>
+            </form>
+            <ul id="cinema-list"></ul>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

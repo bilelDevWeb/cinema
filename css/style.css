@@ -1,0 +1,117 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #444;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Conteneur principal */
+#app {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Messages d'erreur */
+#error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Bouton de géolocalisation */
+#geolocate-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#geolocate-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Formulaire de recherche */
+#search-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#search-form input[type="text"] {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#search-form label {
+    font-size: 14px;
+    color: #555;
+}
+
+#search-form input[type="range"] {
+    width: 100%;
+}
+
+#range-value {
+    font-size: 14px;
+    color: #333;
+    text-align: right;
+}
+
+#search-form button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+#search-form button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Liste des cinémas */
+#cinema-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#cinema-list li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+#cinema-list li:hover {
+    background-color: #f1f1f1;
+}
